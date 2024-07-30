@@ -9,7 +9,16 @@ import SwiftUI
 
 struct DeskView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Desk")
+        NavigationLink(destination: CalendarView()) {
+            Text("Calendar")
+        }
+        NavigationLink(destination: ToDoView()) {
+            Text("To Do List")
+        }
+        NavigationLink(destination: ResourceView()) {
+            Text("Resources")
+        }
     }
 }
 

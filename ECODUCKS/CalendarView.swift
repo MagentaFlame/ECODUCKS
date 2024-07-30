@@ -8,8 +8,18 @@
 import SwiftUI
 
 struct CalendarView: View {
+    @State public var month = "July"
+    @State public var year = "2024"
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            VStack {
+                HStack {
+                    Text("Calendar")
+                    Text("\(month), \(year)")
+                }
+            }
+        }
+        
     }
 }
 

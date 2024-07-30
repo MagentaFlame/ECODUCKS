@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		BDCE565B2C594FEB00F91B4D /* ECODUCKSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCE565A2C594FEB00F91B4D /* ECODUCKSApp.swift */; };
-		BDCE565D2C594FEB00F91B4D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCE565C2C594FEB00F91B4D /* ContentView.swift */; };
 		BDCE565F2C594FF800F91B4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDCE565E2C594FF800F91B4D /* Assets.xcassets */; };
 		BDCE56622C594FF800F91B4D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDCE56612C594FF800F91B4D /* Preview Assets.xcassets */; };
+		BDCE567D2C59588D00F91B4D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCE567C2C59588D00F91B4D /* HomeView.swift */; };
+		BDCE567F2C59589600F91B4D /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCE567E2C59589600F91B4D /* QuizView.swift */; };
+		BDCE56812C5958A500F91B4D /* DeskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCE56802C5958A500F91B4D /* DeskView.swift */; };
+		BDCE56832C5958AD00F91B4D /* ResourceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCE56822C5958AD00F91B4D /* ResourceView.swift */; };
+		BDCE56852C5958CF00F91B4D /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCE56842C5958CF00F91B4D /* CalendarView.swift */; };
+		BDCE56872C5958D700F91B4D /* ToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCE56862C5958D700F91B4D /* ToDoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BDCE56572C594FEB00F91B4D /* ECODUCKS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECODUCKS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDCE565A2C594FEB00F91B4D /* ECODUCKSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECODUCKSApp.swift; sourceTree = "<group>"; };
-		BDCE565C2C594FEB00F91B4D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BDCE565E2C594FF800F91B4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDCE56612C594FF800F91B4D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDCE567C2C59588D00F91B4D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BDCE567E2C59589600F91B4D /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		BDCE56802C5958A500F91B4D /* DeskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeskView.swift; sourceTree = "<group>"; };
+		BDCE56822C5958AD00F91B4D /* ResourceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceView.swift; sourceTree = "<group>"; };
+		BDCE56842C5958CF00F91B4D /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		BDCE56862C5958D700F91B4D /* ToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +62,12 @@
 			isa = PBXGroup;
 			children = (
 				BDCE565A2C594FEB00F91B4D /* ECODUCKSApp.swift */,
-				BDCE565C2C594FEB00F91B4D /* ContentView.swift */,
+				BDCE567C2C59588D00F91B4D /* HomeView.swift */,
+				BDCE567E2C59589600F91B4D /* QuizView.swift */,
+				BDCE56802C5958A500F91B4D /* DeskView.swift */,
+				BDCE56822C5958AD00F91B4D /* ResourceView.swift */,
+				BDCE56842C5958CF00F91B4D /* CalendarView.swift */,
+				BDCE56862C5958D700F91B4D /* ToDoView.swift */,
 				BDCE565E2C594FF800F91B4D /* Assets.xcassets */,
 				BDCE56602C594FF800F91B4D /* Preview Content */,
 			);
@@ -137,7 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDCE565D2C594FEB00F91B4D /* ContentView.swift in Sources */,
+				BDCE567D2C59588D00F91B4D /* HomeView.swift in Sources */,
+				BDCE56852C5958CF00F91B4D /* CalendarView.swift in Sources */,
+				BDCE56872C5958D700F91B4D /* ToDoView.swift in Sources */,
+				BDCE56812C5958A500F91B4D /* DeskView.swift in Sources */,
+				BDCE56832C5958AD00F91B4D /* ResourceView.swift in Sources */,
+				BDCE567F2C59589600F91B4D /* QuizView.swift in Sources */,
 				BDCE565B2C594FEB00F91B4D /* ECODUCKSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
