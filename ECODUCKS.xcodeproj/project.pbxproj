@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD830EEE2C5A98190086A3EB /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD830EED2C5A98190086A3EB /* CustomDatePicker.swift */; };
+		BD830EF02C5AA8E10086A3EB /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD830EEF2C5AA8E10086A3EB /* SwiftUIView.swift */; };
+		BD830EF22C5AAD490086A3EB /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD830EF12C5AAD490086A3EB /* DateValue.swift */; };
+		BD830EFB2C5AC62E0086A3EB /* CustomDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD830EFA2C5AC62E0086A3EB /* CustomDate.swift */; };
 		BDCE565B2C594FEB00F91B4D /* ECODUCKSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCE565A2C594FEB00F91B4D /* ECODUCKSApp.swift */; };
 		BDCE565F2C594FF800F91B4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDCE565E2C594FF800F91B4D /* Assets.xcassets */; };
 		BDCE56622C594FF800F91B4D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDCE56612C594FF800F91B4D /* Preview Assets.xcassets */; };
@@ -19,6 +23,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD830EED2C5A98190086A3EB /* CustomDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePicker.swift; sourceTree = "<group>"; };
+		BD830EEF2C5AA8E10086A3EB /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		BD830EF12C5AAD490086A3EB /* DateValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValue.swift; sourceTree = "<group>"; };
+		BD830EFA2C5AC62E0086A3EB /* CustomDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDate.swift; sourceTree = "<group>"; };
 		BDCE56572C594FEB00F91B4D /* ECODUCKS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECODUCKS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDCE565A2C594FEB00F91B4D /* ECODUCKSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECODUCKSApp.swift; sourceTree = "<group>"; };
 		BDCE565E2C594FF800F91B4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,6 +50,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD830EF52C5ABBBE0086A3EB /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				BDCE56842C5958CF00F91B4D /* CalendarView.swift */,
+				BD830EFA2C5AC62E0086A3EB /* CustomDate.swift */,
+				BD830EED2C5A98190086A3EB /* CustomDatePicker.swift */,
+				BD830EF12C5AAD490086A3EB /* DateValue.swift */,
+				BD830EEF2C5AA8E10086A3EB /* SwiftUIView.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
 		BDCE564E2C594FEB00F91B4D = {
 			isa = PBXGroup;
 			children = (
@@ -61,12 +81,12 @@
 		BDCE56592C594FEB00F91B4D /* ECODUCKS */ = {
 			isa = PBXGroup;
 			children = (
+				BD830EF52C5ABBBE0086A3EB /* Calendar */,
 				BDCE565A2C594FEB00F91B4D /* ECODUCKSApp.swift */,
 				BDCE567C2C59588D00F91B4D /* HomeView.swift */,
 				BDCE567E2C59589600F91B4D /* QuizView.swift */,
 				BDCE56802C5958A500F91B4D /* DeskView.swift */,
 				BDCE56822C5958AD00F91B4D /* ResourceView.swift */,
-				BDCE56842C5958CF00F91B4D /* CalendarView.swift */,
 				BDCE56862C5958D700F91B4D /* ToDoView.swift */,
 				BDCE565E2C594FF800F91B4D /* Assets.xcassets */,
 				BDCE56602C594FF800F91B4D /* Preview Content */,
@@ -155,10 +175,14 @@
 				BDCE567D2C59588D00F91B4D /* HomeView.swift in Sources */,
 				BDCE56852C5958CF00F91B4D /* CalendarView.swift in Sources */,
 				BDCE56872C5958D700F91B4D /* ToDoView.swift in Sources */,
+				BD830EF02C5AA8E10086A3EB /* SwiftUIView.swift in Sources */,
 				BDCE56812C5958A500F91B4D /* DeskView.swift in Sources */,
 				BDCE56832C5958AD00F91B4D /* ResourceView.swift in Sources */,
 				BDCE567F2C59589600F91B4D /* QuizView.swift in Sources */,
 				BDCE565B2C594FEB00F91B4D /* ECODUCKSApp.swift in Sources */,
+				BD830EFB2C5AC62E0086A3EB /* CustomDate.swift in Sources */,
+				BD830EEE2C5A98190086A3EB /* CustomDatePicker.swift in Sources */,
+				BD830EF22C5AAD490086A3EB /* DateValue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
