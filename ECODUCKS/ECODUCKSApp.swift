@@ -12,6 +12,7 @@ struct ECODUCKSApp: App {
     var body: some Scene {
         WindowGroup {
             HomeView()
+                .modelContainer(for: ToDoItem.self)
         }
     }
 }
