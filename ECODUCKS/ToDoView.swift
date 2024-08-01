@@ -2,14 +2,14 @@
 //  ToDoView.swift
 //  ECODUCKS
 //
-//  Created by Scholar on 7/30/24.
+//  Created by Scholar on 8/1/24.
 //
 
 import SwiftUI
 
 struct ToDoView: View {
     var body: some View {
-        Text("To Do List")
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 

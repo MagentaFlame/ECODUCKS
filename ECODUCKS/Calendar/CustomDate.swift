@@ -46,8 +46,7 @@ struct CustomDate: View {
                             VStack(spacing: 0) {
                                 if value.day != -1 {
                                     ZStack {
-                                        Circle()
-                                            .fill(selectedDate == value.date ? .pink.opacity(0.3) : .clear) // using a ternary operator!
+                                        Circle() .fill(selectedDate == value.date ? .pink.opacity(0.3) : .clear) // using a ternary operator!
                                             
                                         Text("\(value.day)")
                                             .foregroundStyle(isToday(date: value.date) ? .pink.opacity(0.8) : .black) // <-- you can customize the colors here!
